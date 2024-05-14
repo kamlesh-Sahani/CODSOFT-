@@ -1,0 +1,194 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EEF1F8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px;
+  background-color: #ffffffb7;
+  position: fixed;
+  top: 0;
+  left: 0;  
+  right: 0;
+}
+
+.navbar h1 {
+  color: #28007d;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #5d5d5db3;
+}
+
+.main {
+  width: 80%;
+  margin:100px  auto;
+}
+
+.main .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main .about img {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(147, 147, 147, 0.3);
+}
+
+.about .about_text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.about .about_text p{
+ line-height: 20px;
+ color: #343434c1;
+}
+
+.about h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #34049d;
+}
+
+.skills {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+    color: #34049d;
+    font-weight: 600;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color:#3d1a89;
+  color: #fff;
+}
+
+.skills-list li:hover {
+  transform: translateY(-10px);
+  transition: all 0.4s;
+}
+
+.projects {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.projects .project-container{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;    
+}
+
+.projects .project-container .project{
+    width: 300px;
+    height: 100px;
+    box-shadow: 4px 4px 4px #dddddd;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    border-radius: 7px;
+    transition: all 0.4s;
+    text-align: center; 
+    cursor: pointer;
+    padding: 10px;
+}
+.projects .project-container p{
+    color: #7d7d7d;
+}
+
+.projects .project-container .project:hover{
+    transform: translateY(-10px);
+    transition: all 0.4s;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.resume a{
+    text-decoration: none;
+    
+}
+
+.resume button{
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: #3d1a89;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer{
+    background-color: #3d1a89;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
